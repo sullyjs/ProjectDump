@@ -1,0 +1,104 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,300);
+@import 'https://fonts.googleapis.com/css?family=Cantarell:400,700';
+
+
+body {
+	font:400 14px/1.8 'Cantarell', sans-serif;
+		-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+	background-color:  #23272A;
+	font-family: "Cantarell", "Times New Roman", sans-serif;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 5.9vw;
+}	
+
+h3 {
+	color: white;
+	text-align: left;
+	font-size: 2vw;
+}
+
+p {
+	color: white;
+	text-align: center;
+
+}
+
+
+button{   
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.4s ease 0s;
+  background-color: #9370DB;
+  padding: 18px;
+  width: 300px;
+  height: 100px;
+}
+
+button:hover {
+  color: black;
+  background-color: #8A2BE2;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section{ 
+	display: flex;
+	text-align: center;
+
+}
+
+
+/*.section h1{ text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase; } 
+
+ .section p {  
+    font-size: 1.1rem; padding: 30px 0; } */
+	
+.leftside { 
+	width: 50; height: auto; overflow: hidden; margin-top: 20px;
+	}
+
+
+
+.leftside p {  
+    font-size: 1.7vw; padding: 10px 0; text-align: left; }
+
+
+.rightside{ width: 50%; height: auto; color: white; margin-top: 80px; padding: 55px;}
+
+
+
+.rightside p {  
+    font-size: 1vw; padding: 10px 0; text-align: left; }
+
+.container {
+  margin: auto;
+  top: 50%;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  
+}

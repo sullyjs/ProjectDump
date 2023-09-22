@@ -1,0 +1,23 @@
+.container {
+  background-color: red;
+  width: 70%;
+  min-width: 600px;
+  margin: auto;
+}
+
+.card {
+  background-color: green;
+  float: left;
+  width: 50%;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: row;
+}
+.card img {
+  background-color: blue;
+  padding: 12px;
+  width: 50px;
+  height: 50px;
+  min-width: 50px;
+  min-height: 50px;
+}

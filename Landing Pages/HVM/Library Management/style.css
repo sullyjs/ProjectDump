@@ -1,0 +1,146 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #40e0d0;
+}
+
+.b1{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  top: 0;
+  display: table;
+  background-size: cover;
+}
+.b1 .in1{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
+.content{
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.content h1{
+  font-family: 'Century Gothic',sans-serif;
+  color: #f9f3f4;
+  font-size: 500%;
+  text-shadow: 0 0 300px #000;
+}
+
+.content .btn{
+  border-radius: 9px;
+  color: #f9f3f4;
+  text-decoration: none;
+  font-family: 'Century Gothic',sans-serif;
+  border: 3px solid;
+  padding: 7px 13px;
+  font-weight: bold;
+}
+
+.content .btn:hover{
+  color: #2196f3;
+}
+
+.textbox {
+	width: 90%;
+	margin: auto;
+	min-width: 600px;
+	overflow: hidden;
+	background-color: #fff;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+ p{
+  font-size: 100%;
+  line-height: 200%;
+  font-family: 'Century Gothic',sans-serif;
+  color: black;
+}
+
+ h1 {
+  font-size: 200%;
+  text-align: center;
+  line-height: 100%;
+  font-family: 'Century Gothic',sans-serif;
+  color: black;
+}
+
+.textbox h3 {
+  font-size: 150%;
+  text-align: center;
+  font-family: 'Century Gothic',sans-serif;
+  color: black;
+}
+
+
+/*login block*/
+
+.loginblock {
+	text-align: center;
+	width: 200px;
+	margin: auto;
+	min-width: 600px;
+	overflow: hidden;
+	background-color: #fff;
+	border: 5px solid black;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.submbtn {
+  border-radius: 9px;
+  color: black;
+  background-color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border: 3px solid black;
+  padding: 7px 13px;
+  font-weight: bold;
+}
+
+.center {
+	text-align: center;
+}
+
+/*home*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  display: table;
+  float: left;
+  width: 25%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  
+}
+
+

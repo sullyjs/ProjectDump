@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/*
+Content:
+
+1: General
+2: Landing Page
+
+*/
+
+/* 1: General*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font:400 14px/1.8 'Cantarell', sans-serif;
+        -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color:  #1cb0a1 
+}
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 2rem;
+}
+
+
+h3, th {
+	font-family: 'Cantarell', sans-serif;
+	color: white;
+	font-size: 1rem;
+}
+
+h2 {
+	font-family: 'Cantarell', sans-serif;
+	color: white;
+}
+
+p, td, a {
+	font-family: 'Cantarell', sans-serif;
+	color: white;
+}
+
+.outro p { 
+	font-size: 12px;
+	text-align: center;
+}
+
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+} 
+
+/* 2: Landing Page */
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top: 0;
+	background-size: cover;
+	
+}
+
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.content h1 {
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-size: 300%;
+	
+}
+
+.btn {
+	background-color: white;
+	font-family: "Oswald", sans-serif;
+	color: #1cb0a1;
+	font-size: 120%;
+	padding: 15px 15px 15px 15px;
+	transition: all 0.4s ease 0s;
+	border-radius: 15px;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 120px;
+}
+
+.btn:hover {
+  color:  #1cb0a1;
+  background-color: gray;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+}
+
+
+			/* Navigation bar */
+
+.nav{
+    list-style:none;
+    margin:0;
+	margin-left: 10px;
+    padding:0;
+
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+	text-decoration: none;
+}
+
+.navbtn:hover {
+	color: #9370DB;
+	font-size: 14px;
+}
+	
+.title {
+	float: left;
+	font-weight: bold;
+	color: white;
+	font-size: 14px;
+}
+
